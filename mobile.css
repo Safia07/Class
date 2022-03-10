@@ -1,0 +1,80 @@
+/*
+When the target isn't set, hide the "off"
+button and show the "on" button
+*/
+#clicked .on {
+    display: block;
+}
+
+#clicked .off {
+    display: none;
+    text-decoration: none;
+}
+
+/*
+When the target is set, hide the "on"
+button and show the "off" button
+*/
+#clicked:target .on {
+    display: none;
+}
+
+#clicked:target .off {
+    display: block;
+}
+
+#clicked:target nav {
+    display: block;
+}
+
+.on::before {
+    content: '';
+    position: absolute;
+    width: 1.25em;
+    margin-top: 0.3em;
+    border-bottom: 0.2em solid red;
+}
+
+.on {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid red;
+    border-bottom: 0.2em solid red;
+    border-radius: 0.1em;
+}
+
+nav {
+    display: none;
+    background-color: purple;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+   
+}
+
+menu {
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    height: 100vh;
+    width: 50%;
+}
+
+.menu ul li {
+    background-color: blue;
+    color: black;
+    display: inline-block;
+    width: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    text-align: center;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+

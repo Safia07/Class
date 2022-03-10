@@ -1,0 +1,25 @@
+.csy1018 {
+    background-color: purple;
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.csy1019 {
+    background-color: blue;
+    display: block;
+    width: 50%;
+    float: left;
+}
+.csy1014 {
+    background-color: orange;
+    display: block;
+    width: 50%;
+    float: auto;
+}
+.csy1020 {
+    background-color: red;
+    display: block;
+    width: 50%;
+    float: right;
+}

@@ -1,0 +1,46 @@
+/*
+When the target isn't set, hide the "off"
+button and show the "on" button
+*/
+#clicked .on {
+    display: block;
+}
+
+#clicked .off {
+    display: none;
+}
+
+/*
+When the target is set, hide the "on"
+button and show the "off" button
+*/
+#clicked:target .on {
+    display: none;
+}
+
+#clicked:target .off {
+    display: block;
+}
+
+/*
+nav {
+    display: block;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+}
+
+*/
+
+.menu ul li {
+    background-color: orange;
+    color: black;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
