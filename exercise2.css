@@ -1,0 +1,21 @@
+section h1+p {
+    color: green;
+}
+
+/* input {
+    border: 2px solid red;
+    background-color: darkred;
+    color: white;
+} */
+
+section:nth-child(2) input[type="text"] {
+    background-color: red;
+}
+
+section:nth-child(3) input[type="text"] {
+    background-color: green;
+}
+
+section:nth-child(4) {
+    color: blue;
+}
