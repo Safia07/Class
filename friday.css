@@ -1,3 +1,45 @@
+/* for nav  */
+
+* {
+    font-family: 'Palette Mosiac', cursive;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+nav ul li {
+    padding: 0.5em;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: blue;
+    font-family: cursive; /* you're always better off using google fonts because you have more control over that and if you use the default then it will come off differently on different devices. If you use google fonts then it will be consistent on all devices. */
+    font-size: 1.5em;
+}
+
+.active {
+    background-color: 0.5em solid red; 
+    /* or (you have to choose one) */
+    /* border-bottom: 0.2em; solid green; */ /* This line doesn't like the green for some reason, it is underlined*/
+}
+
+/* or  for just the word to be a color you can use*/
+
+.active a {
+    color: yellow;
+}
+
+
+/* for the body onwords */
+
 main {
     margin: 15%;
     background-color: black;
