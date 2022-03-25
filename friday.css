@@ -63,6 +63,47 @@ footer a {
 
 }
 
+.contactLinks a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.contactLinks i {
+    margin-right: 1em;
+}
+
+.contactLinks {
+    background-color: blue;
+    padding: 2em;
+    width: 50%;
+}
+
+.contactPage {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contactPage form {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin: 1em;
+    grid-gap: 0.5em; 
+}
+
+.contactPage form input {
+    width: 50%;
+}
+
+/* just use the tools on the webpage to see what you like and then add it here */
+
+
+
+
+
+
 
 
 
