@@ -7,6 +7,8 @@ main {
 .backG p {
     font-size: 5em;
     font-family: cursive;
+    word-spacing: 100vw;
+    width: 0.1em;
 }
 
 .backG {
