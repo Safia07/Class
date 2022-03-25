@@ -99,6 +99,12 @@ footer a {
 
 /* just use the tools on the webpage to see what you like and then add it here */
 
+main{
+    margin-left: 155%;
+    margin-right: 15%;
+}
+/* just to main allows it to only affect the main and not header and footer which can be stretched out */
+/* the margin left and right lets you move the text to the center rather than keep have alot of space in the center which you dont want,,, only have a small margin if you have to have one */
 
 
 
