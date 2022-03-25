@@ -1,0 +1,50 @@
+main {
+    margin: 15%;
+    background-color: black;
+    color: white;
+}
+
+.backG p {
+    font-size: 5em;
+    font-family: cursive;
+}
+
+.backG {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    animation: down 2.5s infinite ease;
+}
+
+.backG p:nth-child(even) {
+    animation: down 2.5s infinite ease;
+}
+
+.backG p:nth-child(odd) {
+    animation: up 2.5s infinite ease;
+}
+
+@keyframes down {
+
+    0% {
+        transform: translate(0, -100%);
+    }
+
+    100% {
+        transform: translate(0, 100%);
+    }
+}
+
+@keyframes up {
+
+    0% {
+        transform: translate(0, -100%);
+    }
+
+    100% {
+        transform: translate(0, 100%);
+    }
+}
