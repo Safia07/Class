@@ -37,6 +37,35 @@ nav ul li a {
     color: yellow;
 }
 
+nav > ul li:hover {
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+footer {
+    background-color: red;
+    width: 100%;
+    height: 5em;
+
+    display: grid;
+    grid-template-columns: repeat(4, auto); /* If you ever repeating something e.g. auto auto auto then you're doing something wrong, there's always a shortcut  */
+    justify-items: center;
+    align-items: center;
+    /* add padding if you want them closer to each other (the icons), this will affect how it looks on different devices. You should only do this in desktop css */
+
+    /* % is better in margins */
+
+    /* because an icon is seen as a imagine in VSC, you need to treat it like an image so use an anchor tag */
+}
+
+footer a {
+    color: white;
+    font-size: 0.5em;
+
+}
+
+
+
+
 
 /* for the body onwords */
 
