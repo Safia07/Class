@@ -102,10 +102,15 @@ footer a {
 main{
     margin-left: 155%;
     margin-right: 15%;
+    background-image: url(download.jpg);
 }
 /* just to main allows it to only affect the main and not header and footer which can be stretched out */
 /* the margin left and right lets you move the text to the center rather than keep have alot of space in the center which you dont want,,, only have a small margin if you have to have one */
 
+img {
+    width: 50%;
+    border-radius: 100%;
+}
 
 
 
